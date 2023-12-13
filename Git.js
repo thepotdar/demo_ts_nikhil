@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
 
   // Sending the response
+  res.end('welcome to branch1');
   res.end('This is branch2');
 });
 
