@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
 
   // Sending the response
-  res.end('This is branch2');
+  res.end('Welcome to branch2');
 });
 
 // Setting the port and IP address to listen on
